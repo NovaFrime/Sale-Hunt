@@ -31,7 +31,6 @@
 - User interface *Ongoing*
 - Scrape Tiki
 - Scrape H&M
-
 #User interface/Screenshots
 *Ongoing*
 #Demo
