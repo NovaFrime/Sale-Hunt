@@ -8,6 +8,7 @@ Sale Hunt is a web scraper that fetches discounted products from multiple online
 
 ## Table of Contents
 [TOCM]
+[TOC]
 - [Features](#features)
 - [Our team](#our-team)
 - [Technologies](#technologies)
