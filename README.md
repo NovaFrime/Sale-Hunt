@@ -1,16 +1,33 @@
-# React + Vite
+### Features
+- Login/Sign Up.
+- Self hosting.
+- Proper UI.
+- Database for users.
+- Fetch/Receive discounted products.
+# Sale Hunt - Web Scraper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![](https://raw.githubusercontent.com/NovaFrime/Sale-Hunt/main/readme_1.png?token=GHSAT0AAAAAACHLIOVYK5V3T4B24RQG6DKGZLOLUEQ)
 
-Currently, two official plugins are available:
+**Table of Contents**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[TOCM]
 
-In this project we are going to use `yarn` as a package manager and `vite` as a bundler.
+[TOC]
 
-To run the project.
+#Our Scope
+- Lấy thông tin các sản phẩm được giảm giá từ nhiều Website bán hàng Online.
+#Technologies
+- ReactJS.
+- Javascript.
+- Vite.
+- Docker & Prisma.
+#Todo list
 
-```bash
-yarn run dev
-```
+#User interface/Screenshots
+
+#Demo
+
+
+
+
+#End
