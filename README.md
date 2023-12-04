@@ -70,9 +70,6 @@ Sale Hunt is a web scraper that fetches discounted products from multiple online
 3. Run docker, local or host it, your choice
 4. Modify mapping and API Call
 5. Done
-## Usage
-
-Provide instructions and examples for use. Include screenshots as needed.
 
 ## Contributing
 
