@@ -7,8 +7,6 @@
 Sale Hunt is a web scraper that fetches discounted products from multiple online retail websites. It's built with ReactJS, Javascript, Vite, Docker & Prisma, and a few additional libraries like react-icon and axios.
 
 ## Table of Contents
-[TOCM]
-[TOC]
 - [Features](#features)
 - [Our team](#our-team)
 - [Technologies](#technologies)
