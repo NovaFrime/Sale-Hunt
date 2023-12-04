@@ -56,8 +56,11 @@ Sale Hunt is a web scraper that fetches discounted products from multiple online
 
 ## Installation
 
-Provide detailed instructions on how to install your project.
-
+1. Clone this repo
+  - run npm i -> npm run dev
+  - For deployment, you can deploy on self-hosting server, vercel or netlify.
+2. Clone the backend/database repo
+  - Repo link: https://github.com/chauanphu/Coupon-scraping/tree/dev_be/backend
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
@@ -65,13 +68,4 @@ Provide instructions and examples for use. Include screenshots as needed.
 ## Contributing
 
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-## License
-
-Include a LICENSE file in your project to specify the terms under which others can use, copy, modify, and distribute your project.
-
-## Contact
-
-Your Name - YourEmail@example.com
-
 Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
