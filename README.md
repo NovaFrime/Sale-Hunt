@@ -9,6 +9,7 @@ Sale Hunt is a web scraper that fetches discounted products from multiple online
 ## Table of Contents
 
 - [Features](#features)
+- [Our team](#our-team)
 - [Technologies](#technologies)
 - [Todo List](#todo-list)
 - [User Interface/Screenshots](#user-interface-screenshots)
@@ -27,7 +28,12 @@ Sale Hunt is a web scraper that fetches discounted products from multiple online
 - Database for users.
 - Fetch/Receive discounted products.
 - Realtime information.
-
+## Our Team
+- Trần Ngọc Tiến (Mentor)
+- Nguyễn Thảo My - 3rd year (Front-end)
+- Nguyễn Khôi - 3rd year (Front-end)
+- Châu An Phú - 2nd year (Back-end)
+- Lê Thành Danh - 1st year (Back-end & Front-end)
 ## Technologies
 
 - ReactJS
@@ -61,6 +67,9 @@ Sale Hunt is a web scraper that fetches discounted products from multiple online
   - For deployment, you can deploy on self-hosting server, vercel or netlify.
 2. Clone the backend/database repo
   - Repo link: https://github.com/chauanphu/Coupon-scraping/tree/dev_be/backend
+3. Run docker, local or host it, your choice
+4. Modify mapping and API Call
+5. Done
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
@@ -68,4 +77,4 @@ Provide instructions and examples for use. Include screenshots as needed.
 ## Contributing
 
 If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: https://github.com/NovaFrime/Sale-Hunt
