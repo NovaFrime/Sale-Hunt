@@ -16,14 +16,16 @@ const SideBar = () => {
     return (
         <div className="sidebar">
             <Link to="/">{<CgMenuGridO size={25} className='icon'/>}Home</Link>
-            <Link to="/login">{<IoIosLogIn  size={25} className='icon'/>}Log In</Link>
             {isUserLoggedIn ? (
                 <>
                      <Link to="/favorite">{<FaRegStar  size={25} className='icon'/>}Favorite</Link>
                     <Link to="/" onClick={removeToken}>Logout</Link>
                 </>
             ) : (
+                <>
+                <Link to="/login">{<IoIosLogIn  size={25} className='icon'/>}Log In</Link>
                 <Link to="/register">{<FaUserPlus  size={25} className='icon'/>}Register</Link>
+                </>
                 )}
             {/* Call logout. */}
         </div>

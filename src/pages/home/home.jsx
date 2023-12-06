@@ -20,13 +20,6 @@ const Home = () => {
      }
      setPage(prevPage => prevPage + 1);
  };
-
- useEffect(() => {
-     const scrollContainer = scrollContainerRef.current;
-     scrollContainer.addEventListener('scroll', handleScroll);
-     return () => scrollContainer.removeEventListener('scroll', handleScroll);
- }, []);
-
  useEffect(() => {
      const fetchData = async () => {
        const response = await fetch(`https://api.captechvn.com/shopee?page=${page}`);
