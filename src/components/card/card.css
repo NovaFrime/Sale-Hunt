@@ -1,5 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500;800&family=Roboto+Mono:wght@400;500&display=swap');
-@keyframes fadeIn {
+@keyframes fade {
+    0% {    border: 1px solid none;
+    }
+    100% {    
+      
+      border: 1px solid coral;
+      background-color: white;
+      color: black
+    }
+  }
+  @keyframes fadeIn {
     0% {background-color: white;}
     100% {background-color: rgb(163, 163, 163);color:white}
   }
@@ -11,6 +21,8 @@
     margin-bottom: 20px;
     font-family: 'Noto Sans';
     font-weight: 500;
+    border: 1px solid #f1f1f1;
+
    }
    
 .card img {
@@ -18,17 +30,28 @@ width: 100%;
 height: auto;
 }
 .card:hover {
-    animation: fadeIn 1s;
-    background-color: rgb(163, 163, 163);
-    color: white
+    animation: fade 0.5s;
+    border: 1px solid coral;
+    background-color: white;
+    color: black
 }
 .discount {
     position: flex;
+    align-self: start;
     font-size: 1.2rem;
     color: #000;
-    background-color: yellow;
+    background-color: rgb(110, 255, 110);
     padding: 0.5rem;
     border-radius: 10px;
-    
-    
-  }
+}
+.title{
+  font-size: larger;
+}
+.price{
+  font-size: 30px;
+}
+.pricesale {
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+}
